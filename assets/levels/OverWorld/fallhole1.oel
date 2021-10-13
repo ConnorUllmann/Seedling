@@ -1,0 +1,35 @@
+<level>
+  <width>80</width>
+  <height>80</height>
+  <tiles set="tileset">
+    <tile tx="288" ty="0" x="16" y="0"/>
+    <tile tx="288" ty="0" x="64" y="32"/>
+    <tile tx="288" ty="0" x="16" y="64"/>
+    <tile tx="288" ty="0" x="0" y="0"/>
+    <tile tx="288" ty="0" x="0" y="48"/>
+    <tile tx="176" ty="0" x="32" y="0"/>
+    <tile tx="176" ty="0" x="48" y="0"/>
+    <tile tx="176" ty="0" x="64" y="0"/>
+    <tile tx="176" ty="0" x="64" y="16"/>
+    <tile tx="176" ty="0" x="64" y="48"/>
+    <tile tx="176" ty="0" x="64" y="64"/>
+    <tile tx="176" ty="0" x="48" y="64"/>
+    <tile tx="176" ty="0" x="32" y="64"/>
+    <tile tx="176" ty="0" x="0" y="64"/>
+    <tile tx="112" ty="0" x="48" y="16"/>
+    <tile tx="112" ty="0" x="32" y="16"/>
+    <tile tx="112" ty="0" x="16" y="16"/>
+    <tile tx="112" ty="0" x="16" y="32"/>
+    <tile tx="112" ty="0" x="32" y="32"/>
+    <tile tx="112" ty="0" x="48" y="32"/>
+    <tile tx="112" ty="0" x="48" y="48"/>
+    <tile tx="112" ty="0" x="32" y="48"/>
+    <tile tx="112" ty="0" x="16" y="48"/>
+    <tile tx="176" ty="0" x="0" y="32"/>
+    <tile tx="176" ty="0" x="0" y="16"/>
+  </tiles>
+  <objects>
+    <control x="32" y="32" fallthrough="85" xOff="-48" yOff="-64" sign="6"/>
+    <lightalpha x="0" y="0" alpha="0.1"/>
+  </objects>
+</level>

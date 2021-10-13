@@ -1,0 +1,60 @@
+<level>
+  <width>80</width>
+  <height>144</height>
+  <tiles set="tileset">
+    <tile tx="32" ty="0" x="16" y="64"/>
+    <tile tx="32" ty="0" x="48" y="64"/>
+    <tile tx="400" ty="0" x="0" y="80"/>
+    <tile tx="400" ty="0" x="0" y="96"/>
+    <tile tx="400" ty="0" x="0" y="112"/>
+    <tile tx="400" ty="0" x="0" y="128"/>
+    <tile tx="400" ty="0" x="16" y="128"/>
+    <tile tx="400" ty="0" x="48" y="128"/>
+    <tile tx="400" ty="0" x="64" y="128"/>
+    <tile tx="400" ty="0" x="64" y="112"/>
+    <tile tx="400" ty="0" x="64" y="96"/>
+    <tile tx="400" ty="0" x="64" y="80"/>
+    <tile tx="400" ty="0" x="64" y="0"/>
+    <tile tx="384" ty="0" x="32" y="48"/>
+    <tile tx="400" ty="0" x="16" y="0"/>
+    <tile tx="400" ty="0" x="48" y="0"/>
+    <tile tx="32" ty="0" x="16" y="112"/>
+    <tile tx="32" ty="0" x="32" y="112"/>
+    <tile tx="32" ty="0" x="48" y="112"/>
+    <tile tx="32" ty="0" x="32" y="96"/>
+    <tile tx="384" ty="0" x="16" y="32"/>
+    <tile tx="384" ty="0" x="32" y="16"/>
+    <tile tx="384" ty="0" x="48" y="32"/>
+    <tile tx="384" ty="0" x="32" y="32"/>
+    <tile tx="400" ty="0" x="32" y="0"/>
+    <tile tx="384" ty="0" x="32" y="64"/>
+    <tile tx="384" ty="0" x="32" y="80"/>
+    <tile tx="32" ty="0" x="32" y="128"/>
+    <tile tx="416" ty="0" x="16" y="80"/>
+    <tile tx="416" ty="0" x="48" y="80"/>
+    <tile tx="400" ty="0" x="0" y="64"/>
+    <tile tx="400" ty="0" x="64" y="64"/>
+    <tile tx="384" ty="0" x="16" y="16"/>
+    <tile tx="384" ty="0" x="48" y="16"/>
+    <tile tx="384" ty="0" x="16" y="48"/>
+    <tile tx="384" ty="0" x="48" y="48"/>
+    <tile tx="400" ty="0" x="0" y="48"/>
+    <tile tx="400" ty="0" x="0" y="32"/>
+    <tile tx="400" ty="0" x="0" y="16"/>
+    <tile tx="400" ty="0" x="0" y="0"/>
+    <tile tx="400" ty="0" x="64" y="48"/>
+    <tile tx="400" ty="0" x="64" y="32"/>
+    <tile tx="400" ty="0" x="64" y="16"/>
+    <tile tx="400" ty="0" x="16" y="96"/>
+    <tile tx="400" ty="0" x="48" y="96"/>
+  </tiles>
+  <objects>
+    <lightalpha x="0" y="0" alpha="0.1"/>
+    <conch x="32" y="80" tag="0"/>
+    <lightray x="32" y="32" alpha="0.1" color="0x44CCFF" width="16" height="16"/>
+    <teleporter x="32" y="128" to="50" playerx="32" playery="16" show="0" tag="-1" invert="0"/>
+    <shadow x="16" y="0" alpha="0.25" color="0x000000" width="48" height="16"/>
+    <shadow x="16" y="96" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="48" y="96" alpha="0.25" color="0x000000" width="16" height="16"/>
+  </objects>
+</level>

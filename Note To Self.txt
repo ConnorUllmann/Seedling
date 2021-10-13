@@ -1,0 +1,9 @@
+Note #1
+Necessary varbs on ButtonRoom in Ogmo:
+
+room: The room number that this affects the persistence in.
+tset: the tag in "room" that the persistence is set with.
+flip: do the opposite affect (def. down sets persistence to true) of the normal kind.
+
+Note #2
+Make a C++ program that takes in Game.as and outputs a .txt of the worlds list.

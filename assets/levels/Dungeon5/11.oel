@@ -1,0 +1,109 @@
+<level>
+  <width>160</width>
+  <height>144</height>
+  <tiles set="tileset">
+    <tile tx="400" ty="0" x="0" y="96"/>
+    <tile tx="400" ty="0" x="32" y="96"/>
+    <tile tx="400" ty="0" x="128" y="80"/>
+    <tile tx="400" ty="0" x="144" y="64"/>
+    <tile tx="400" ty="0" x="144" y="48"/>
+    <tile tx="416" ty="0" x="48" y="48"/>
+    <tile tx="400" ty="0" x="0" y="128"/>
+    <tile tx="400" ty="0" x="16" y="128"/>
+    <tile tx="400" ty="0" x="32" y="128"/>
+    <tile tx="400" ty="0" x="48" y="128"/>
+    <tile tx="400" ty="0" x="64" y="128"/>
+    <tile tx="400" ty="0" x="80" y="128"/>
+    <tile tx="400" ty="0" x="96" y="128"/>
+    <tile tx="400" ty="0" x="112" y="128"/>
+    <tile tx="400" ty="0" x="112" y="112"/>
+    <tile tx="400" ty="0" x="128" y="112"/>
+    <tile tx="400" ty="0" x="128" y="96"/>
+    <tile tx="400" ty="0" x="144" y="96"/>
+    <tile tx="400" ty="0" x="144" y="80"/>
+    <tile tx="400" ty="0" x="48" y="80"/>
+    <tile tx="400" ty="0" x="48" y="64"/>
+    <tile tx="400" ty="0" x="80" y="32"/>
+    <tile tx="384" ty="0" x="48" y="96"/>
+    <tile tx="384" ty="0" x="64" y="96"/>
+    <tile tx="384" ty="0" x="64" y="112"/>
+    <tile tx="384" ty="0" x="112" y="80"/>
+    <tile tx="384" ty="0" x="112" y="64"/>
+    <tile tx="384" ty="0" x="96" y="64"/>
+    <tile tx="384" ty="0" x="96" y="80"/>
+    <tile tx="368" ty="0" x="80" y="96"/>
+    <tile tx="368" ty="0" x="80" y="80"/>
+    <tile tx="368" ty="0" x="64" y="80"/>
+    <tile tx="368" ty="0" x="96" y="48"/>
+    <tile tx="368" ty="0" x="96" y="96"/>
+    <tile tx="368" ty="0" x="96" y="112"/>
+    <tile tx="368" ty="0" x="80" y="112"/>
+    <tile tx="400" ty="0" x="112" y="96"/>
+    <tile tx="400" ty="0" x="32" y="80"/>
+    <tile tx="32" ty="0" x="48" y="112"/>
+    <tile tx="32" ty="0" x="32" y="112"/>
+    <tile tx="32" ty="0" x="16" y="112"/>
+    <tile tx="32" ty="0" x="0" y="112"/>
+    <tile tx="400" ty="0" x="80" y="16"/>
+    <tile tx="400" ty="0" x="112" y="16"/>
+    <tile tx="400" ty="0" x="128" y="16"/>
+    <tile tx="400" ty="0" x="64" y="16"/>
+    <tile tx="400" ty="0" x="80" y="0"/>
+    <tile tx="400" ty="0" x="112" y="0"/>
+    <tile tx="368" ty="0" x="96" y="32"/>
+    <tile tx="496" ty="0" x="16" y="96"/>
+    <tile tx="32" ty="0" x="16" y="80"/>
+    <tile tx="32" ty="0" x="16" y="64"/>
+    <tile tx="32" ty="0" x="32" y="64"/>
+    <tile tx="32" ty="0" x="32" y="48"/>
+    <tile tx="32" ty="0" x="16" y="48"/>
+    <tile tx="400" ty="0" x="0" y="80"/>
+    <tile tx="400" ty="0" x="0" y="64"/>
+    <tile tx="400" ty="0" x="0" y="48"/>
+    <tile tx="400" ty="0" x="0" y="32"/>
+    <tile tx="400" ty="0" x="16" y="32"/>
+    <tile tx="400" ty="0" x="0" y="16"/>
+    <tile tx="400" ty="0" x="16" y="16"/>
+    <tile tx="400" ty="0" x="32" y="16"/>
+    <tile tx="400" ty="0" x="48" y="16"/>
+    <tile tx="400" ty="0" x="64" y="0"/>
+    <tile tx="400" ty="0" x="144" y="32"/>
+    <tile tx="400" ty="0" x="144" y="16"/>
+    <tile tx="400" ty="0" x="112" y="48"/>
+    <tile tx="32" ty="0" x="128" y="32"/>
+    <tile tx="32" ty="0" x="64" y="32"/>
+    <tile tx="32" ty="0" x="48" y="32"/>
+    <tile tx="32" ty="0" x="32" y="32"/>
+    <tile tx="400" ty="0" x="32" y="0"/>
+    <tile tx="400" ty="0" x="48" y="0"/>
+    <tile tx="368" ty="0" x="80" y="64"/>
+    <tile tx="400" ty="0" x="80" y="48"/>
+    <tile tx="400" ty="0" x="128" y="0"/>
+    <tile tx="400" ty="0" x="144" y="0"/>
+    <tile tx="416" ty="0" x="112" y="32"/>
+    <tile tx="112" ty="0" x="96" y="16"/>
+    <tile tx="400" ty="0" x="96" y="0"/>
+    <tile tx="32" ty="0" x="64" y="64"/>
+    <tile tx="32" ty="0" x="128" y="64"/>
+    <tile tx="512" ty="0" x="64" y="48"/>
+    <tile tx="512" ty="0" x="128" y="48"/>
+  </tiles>
+  <objects>
+    <bosslock x="96" y="16" keyType="3" tag="0"/>
+    <shadow x="32" y="96" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="144" y="96" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="128" y="112" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="112" y="128" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <lightalpha x="0" y="0" alpha="0.1"/>
+    <orb x="96" y="112" c="0x0088FF"/>
+    <shadow x="48" y="80" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="80" y="48" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="112" y="48" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="128" y="16" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="32" y="16" alpha="0.25" color="0x000000" width="48" height="16"/>
+    <shadow x="16" y="32" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <shadow x="0" y="96" alpha="0.25" color="0x000000" width="16" height="16"/>
+    <teleporter x="0" y="112" to="52" playerx="208" playery="112" show="0" tag="-1" invert="0"/>
+    <control x="80" y="0" fallthrough="57" xOff="-80" yOff="-144"/>
+  </objects>
+</level>

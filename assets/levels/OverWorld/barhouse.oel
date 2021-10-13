@@ -1,0 +1,112 @@
+<level>
+  <width>176</width>
+  <height>160</height>
+  <tiles set="tileset">
+    <tile tx="208" ty="0" x="0" y="144"/>
+    <tile tx="208" ty="0" x="0" y="128"/>
+    <tile tx="208" ty="0" x="0" y="112"/>
+    <tile tx="208" ty="0" x="0" y="96"/>
+    <tile tx="208" ty="0" x="144" y="0"/>
+    <tile tx="208" ty="0" x="112" y="0"/>
+    <tile tx="208" ty="0" x="96" y="0"/>
+    <tile tx="208" ty="0" x="0" y="32"/>
+    <tile tx="208" ty="0" x="0" y="80"/>
+    <tile tx="208" ty="0" x="160" y="0"/>
+    <tile tx="208" ty="0" x="160" y="16"/>
+    <tile tx="208" ty="0" x="160" y="32"/>
+    <tile tx="208" ty="0" x="160" y="48"/>
+    <tile tx="208" ty="0" x="160" y="64"/>
+    <tile tx="208" ty="0" x="160" y="80"/>
+    <tile tx="208" ty="0" x="160" y="96"/>
+    <tile tx="208" ty="0" x="64" y="144"/>
+    <tile tx="208" ty="0" x="48" y="144"/>
+    <tile tx="208" ty="0" x="16" y="144"/>
+    <tile tx="208" ty="0" x="64" y="128"/>
+    <tile tx="208" ty="0" x="64" y="112"/>
+    <tile tx="208" ty="0" x="96" y="16"/>
+    <tile tx="208" ty="0" x="96" y="32"/>
+    <tile tx="208" ty="0" x="80" y="32"/>
+    <tile tx="208" ty="0" x="64" y="32"/>
+    <tile tx="208" ty="0" x="48" y="32"/>
+    <tile tx="208" ty="0" x="32" y="32"/>
+    <tile tx="208" ty="0" x="16" y="32"/>
+    <tile tx="64" ty="0" x="16" y="128"/>
+    <tile tx="64" ty="0" x="32" y="128"/>
+    <tile tx="64" ty="0" x="48" y="128"/>
+    <tile tx="64" ty="0" x="48" y="112"/>
+    <tile tx="64" ty="0" x="32" y="112"/>
+    <tile tx="64" ty="0" x="16" y="112"/>
+    <tile tx="64" ty="0" x="16" y="96"/>
+    <tile tx="64" ty="0" x="32" y="96"/>
+    <tile tx="64" ty="0" x="48" y="96"/>
+    <tile tx="64" ty="0" x="48" y="80"/>
+    <tile tx="64" ty="0" x="32" y="80"/>
+    <tile tx="64" ty="0" x="16" y="80"/>
+    <tile tx="224" ty="0" x="80" y="48"/>
+    <tile tx="224" ty="0" x="80" y="64"/>
+    <tile tx="224" ty="0" x="96" y="64"/>
+    <tile tx="224" ty="0" x="96" y="48"/>
+    <tile tx="224" ty="0" x="128" y="0"/>
+    <tile tx="64" ty="0" x="32" y="144"/>
+    <tile tx="208" ty="0" x="80" y="112"/>
+    <tile tx="208" ty="0" x="96" y="112"/>
+    <tile tx="208" ty="0" x="112" y="112"/>
+    <tile tx="208" ty="0" x="128" y="112"/>
+    <tile tx="208" ty="0" x="144" y="112"/>
+    <tile tx="208" ty="0" x="160" y="112"/>
+    <tile tx="64" ty="0" x="64" y="96"/>
+    <tile tx="224" ty="0" x="32" y="48"/>
+    <tile tx="224" ty="0" x="48" y="48"/>
+    <tile tx="224" ty="0" x="64" y="48"/>
+    <tile tx="224" ty="0" x="64" y="64"/>
+    <tile tx="224" ty="0" x="48" y="64"/>
+    <tile tx="224" ty="0" x="32" y="64"/>
+    <tile tx="224" ty="0" x="16" y="48"/>
+    <tile tx="224" ty="0" x="16" y="64"/>
+    <tile tx="208" ty="0" x="0" y="48"/>
+    <tile tx="208" ty="0" x="0" y="64"/>
+    <tile tx="64" ty="0" x="64" y="80"/>
+    <tile tx="64" ty="0" x="80" y="80"/>
+    <tile tx="64" ty="0" x="80" y="96"/>
+    <tile tx="64" ty="0" x="96" y="96"/>
+    <tile tx="64" ty="0" x="96" y="80"/>
+    <tile tx="64" ty="0" x="112" y="80"/>
+    <tile tx="64" ty="0" x="112" y="96"/>
+    <tile tx="64" ty="0" x="128" y="96"/>
+    <tile tx="64" ty="0" x="128" y="80"/>
+    <tile tx="64" ty="0" x="128" y="64"/>
+    <tile tx="64" ty="0" x="128" y="48"/>
+    <tile tx="64" ty="0" x="128" y="32"/>
+    <tile tx="64" ty="0" x="128" y="16"/>
+    <tile tx="64" ty="0" x="112" y="16"/>
+    <tile tx="64" ty="0" x="112" y="32"/>
+    <tile tx="64" ty="0" x="112" y="48"/>
+    <tile tx="64" ty="0" x="112" y="64"/>
+    <tile tx="64" ty="0" x="144" y="16"/>
+    <tile tx="64" ty="0" x="144" y="32"/>
+    <tile tx="64" ty="0" x="144" y="48"/>
+    <tile tx="64" ty="0" x="144" y="64"/>
+    <tile tx="64" ty="0" x="144" y="80"/>
+    <tile tx="64" ty="0" x="144" y="96"/>
+  </tiles>
+  <objects>
+    <teleporter x="32" y="144" to="12" playerx="336" playery="704" show="0" tag="-1" invert="0" sign="0"/>
+    <teleporter x="128" y="0" to="12" playerx="432" playery="560" show="0" tag="-1" invert="0" sign="0"/>
+    <lightalpha x="0" y="0" alpha="0.4"/>
+    <torch x="80" y="32" c="0xFFCC00"/>
+    <bar x="16" y="64"/>
+    <dresser x="16" y="48"/>
+    <torch x="0" y="64" c="0xFFCC00"/>
+    <barstool x="24" y="80"/>
+    <barstool x="96" y="80"/>
+    <pole x="128" y="48"/>
+    <pole x="128" y="80"/>
+    <torch x="128" y="80" c="0xFFCC00"/>
+    <torch x="128" y="48" c="0xFFCC00"/>
+    <introchar x="24" y="72" tag="1" text="...Zzzzz...~Hurm?~Oh, I must've fallen asleep.~I had the craziest nightmare.~There was a horrible, inky blackness crawling over our land...~...and I watched as the owner's of our land's realms were killed by it!~Glad I woke up! I always loved playing with Relic toys when I was young.~Having huge fights between the Shieldspire and Tentacled Beast...~Ah, those were the days!" frames="2"/>
+    <forestchar x="96" y="72" tag="2" text="A huge rock fell from the sky just across the way.~Do you know anything about it?~I heard it fell over the &quot;Nest of the Owl.&quot;~It's basically just a hole in the ground, but it is~supposedly the home of a Creature of the Relic.~The Owl is fabled to be a small, innocuous creature.~He will cause small tremors when threatened, and hops around.~It is told that, long ago, a horrible beast came,~and he was sealed in front of the Nest with a warning.~Anyways, this is all just storytelling. Have a drink!" frames="2"/>
+    <magicallock x="128" y="0" tag="0"/>
+    <adnanchar x="56" y="48" tag="3" text="I run this bar myself.~It's a small place, but I wish I had more business.~People told me the woods wouldn't be great for a bar...~...they were right." frames="3"/>
+    <bar x="80" y="64"/>
+  </objects>
+</level>

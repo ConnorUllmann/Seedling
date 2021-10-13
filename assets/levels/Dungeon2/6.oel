@@ -1,0 +1,139 @@
+<level>
+  <width>176</width>
+  <height>176</height>
+  <tiles set="tileset">
+    <tile tx="48" ty="0" x="0" y="128"/>
+    <tile tx="48" ty="0" x="0" y="160"/>
+    <tile tx="48" ty="0" x="16" y="160"/>
+    <tile tx="48" ty="0" x="32" y="160"/>
+    <tile tx="48" ty="0" x="48" y="160"/>
+    <tile tx="48" ty="0" x="64" y="160"/>
+    <tile tx="48" ty="0" x="80" y="160"/>
+    <tile tx="48" ty="0" x="96" y="160"/>
+    <tile tx="48" ty="0" x="112" y="160"/>
+    <tile tx="48" ty="0" x="128" y="160"/>
+    <tile tx="48" ty="0" x="144" y="160"/>
+    <tile tx="48" ty="0" x="160" y="160"/>
+    <tile tx="48" ty="0" x="176" y="160"/>
+    <tile tx="48" ty="0" x="16" y="128"/>
+    <tile tx="48" ty="0" x="32" y="128"/>
+    <tile tx="48" ty="0" x="0" y="112"/>
+    <tile tx="48" ty="0" x="0" y="96"/>
+    <tile tx="48" ty="0" x="0" y="80"/>
+    <tile tx="48" ty="0" x="0" y="64"/>
+    <tile tx="48" ty="0" x="0" y="48"/>
+    <tile tx="48" ty="0" x="0" y="32"/>
+    <tile tx="48" ty="0" x="0" y="16"/>
+    <tile tx="48" ty="0" x="0" y="0"/>
+    <tile tx="48" ty="0" x="16" y="0"/>
+    <tile tx="48" ty="0" x="32" y="0"/>
+    <tile tx="48" ty="0" x="48" y="0"/>
+    <tile tx="48" ty="0" x="64" y="0"/>
+    <tile tx="48" ty="0" x="80" y="0"/>
+    <tile tx="48" ty="0" x="96" y="0"/>
+    <tile tx="48" ty="0" x="112" y="0"/>
+    <tile tx="48" ty="0" x="128" y="0"/>
+    <tile tx="48" ty="0" x="144" y="0"/>
+    <tile tx="48" ty="0" x="160" y="0"/>
+    <tile tx="48" ty="0" x="160" y="16"/>
+    <tile tx="48" ty="0" x="160" y="32"/>
+    <tile tx="48" ty="0" x="160" y="64"/>
+    <tile tx="48" ty="0" x="160" y="80"/>
+    <tile tx="48" ty="0" x="160" y="96"/>
+    <tile tx="48" ty="0" x="160" y="112"/>
+    <tile tx="48" ty="0" x="160" y="128"/>
+    <tile tx="48" ty="0" x="160" y="144"/>
+    <tile tx="128" ty="0" x="16" y="144"/>
+    <tile tx="128" ty="0" x="32" y="144"/>
+    <tile tx="128" ty="0" x="48" y="144"/>
+    <tile tx="128" ty="0" x="64" y="144"/>
+    <tile tx="128" ty="0" x="80" y="144"/>
+    <tile tx="128" ty="0" x="96" y="144"/>
+    <tile tx="128" ty="0" x="112" y="144"/>
+    <tile tx="128" ty="0" x="112" y="16"/>
+    <tile tx="128" ty="0" x="96" y="16"/>
+    <tile tx="128" ty="0" x="80" y="16"/>
+    <tile tx="128" ty="0" x="48" y="16"/>
+    <tile tx="128" ty="0" x="48" y="32"/>
+    <tile tx="128" ty="0" x="80" y="112"/>
+    <tile tx="128" ty="0" x="96" y="112"/>
+    <tile tx="128" ty="0" x="112" y="112"/>
+    <tile tx="128" ty="0" x="112" y="96"/>
+    <tile tx="128" ty="0" x="112" y="80"/>
+    <tile tx="128" ty="0" x="112" y="64"/>
+    <tile tx="128" ty="0" x="112" y="48"/>
+    <tile tx="128" ty="0" x="96" y="48"/>
+    <tile tx="128" ty="0" x="80" y="48"/>
+    <tile tx="128" ty="0" x="80" y="64"/>
+    <tile tx="128" ty="0" x="80" y="80"/>
+    <tile tx="96" ty="0" x="16" y="80"/>
+    <tile tx="96" ty="0" x="16" y="96"/>
+    <tile tx="96" ty="0" x="80" y="128"/>
+    <tile tx="96" ty="0" x="96" y="128"/>
+    <tile tx="96" ty="0" x="112" y="128"/>
+    <tile tx="96" ty="0" x="112" y="32"/>
+    <tile tx="96" ty="0" x="96" y="32"/>
+    <tile tx="96" ty="0" x="80" y="32"/>
+    <tile tx="96" ty="0" x="80" y="96"/>
+    <tile tx="96" ty="0" x="96" y="96"/>
+    <tile tx="96" ty="0" x="96" y="80"/>
+    <tile tx="96" ty="0" x="96" y="64"/>
+    <tile tx="128" ty="0" x="0" y="144"/>
+    <tile tx="128" ty="0" x="16" y="64"/>
+    <tile tx="128" ty="0" x="16" y="48"/>
+    <tile tx="128" ty="0" x="16" y="32"/>
+    <tile tx="128" ty="0" x="16" y="16"/>
+    <tile tx="128" ty="0" x="32" y="16"/>
+    <tile tx="48" ty="0" x="16" y="112"/>
+    <tile tx="48" ty="0" x="32" y="112"/>
+    <tile tx="48" ty="0" x="32" y="96"/>
+    <tile tx="48" ty="0" x="32" y="80"/>
+    <tile tx="48" ty="0" x="48" y="128"/>
+    <tile tx="48" ty="0" x="48" y="112"/>
+    <tile tx="48" ty="0" x="48" y="96"/>
+    <tile tx="48" ty="0" x="48" y="80"/>
+    <tile tx="48" ty="0" x="64" y="112"/>
+    <tile tx="48" ty="0" x="64" y="96"/>
+    <tile tx="48" ty="0" x="64" y="80"/>
+    <tile tx="48" ty="0" x="128" y="128"/>
+    <tile tx="48" ty="0" x="128" y="112"/>
+    <tile tx="48" ty="0" x="128" y="96"/>
+    <tile tx="48" ty="0" x="128" y="80"/>
+    <tile tx="48" ty="0" x="144" y="128"/>
+    <tile tx="48" ty="0" x="144" y="112"/>
+    <tile tx="48" ty="0" x="144" y="96"/>
+    <tile tx="48" ty="0" x="144" y="80"/>
+    <tile tx="48" ty="0" x="128" y="144"/>
+    <tile tx="48" ty="0" x="144" y="144"/>
+    <tile tx="48" ty="0" x="64" y="64"/>
+    <tile tx="48" ty="0" x="48" y="64"/>
+    <tile tx="48" ty="0" x="32" y="64"/>
+    <tile tx="48" ty="0" x="32" y="48"/>
+    <tile tx="48" ty="0" x="128" y="64"/>
+    <tile tx="48" ty="0" x="128" y="48"/>
+    <tile tx="48" ty="0" x="144" y="48"/>
+    <tile tx="48" ty="0" x="160" y="48"/>
+    <tile tx="48" ty="0" x="144" y="64"/>
+    <tile tx="96" ty="0" x="64" y="128"/>
+    <tile tx="48" ty="0" x="32" y="32"/>
+    <tile tx="96" ty="0" x="64" y="48"/>
+    <tile tx="128" ty="0" x="48" y="48"/>
+    <tile tx="48" ty="0" x="64" y="32"/>
+    <tile tx="48" ty="0" x="64" y="16"/>
+    <tile tx="48" ty="0" x="128" y="16"/>
+    <tile tx="48" ty="0" x="144" y="16"/>
+    <tile tx="48" ty="0" x="144" y="32"/>
+    <tile tx="48" ty="0" x="128" y="32"/>
+  </tiles>
+  <objects>
+    <stairsup x="16" y="96" flip="1" to="20" playerx="192" playery="64" sign="0"/>
+    <teleporter x="0" y="144" to="18" playerx="160" playery="112" show="0" tag="-1" invert="0" sign="0"/>
+    <shieldboss x="80" y="32" tag="0"/>
+    <bosskey x="96" y="64" keyType="0"/>
+    <orb x="56" y="72" c="0xFF00FF"/>
+    <orb x="152" y="72" c="0xFF00FF"/>
+    <lightalpha x="0" y="0" alpha="0.4"/>
+    <sign x="64" y="128" tag="2" text="Wait for your opening against the Shieldspire." frames="4"/>
+    <bosslock x="48" y="32" keyType="0" tag="1"/>
+  </objects>
+</level>

@@ -1,0 +1,25 @@
+//Player
+hasSword
+hasShield
+hasFire
+hasWand
+canSwim
+hasSpear
+hasDarkShield
+hasDarkSuit
+hasDarkSword
+hasFeather
+hasTorch
+beam
+rockSet
+hasKey
+hasTotemPart
+hitsMax
+
+//Game
+playerPosition
+levels
+level
+
+//Inventory
+items <- Possibly covered when player's stuff is set?

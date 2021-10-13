@@ -1,0 +1,605 @@
+<project>
+	<name>Shrum</name>
+	<settings>
+		<defaultWidth>320</defaultWidth>
+		<defaultHeight>320</defaultHeight>
+		<minWidth>1</minWidth>
+		<minHeight>1</minHeight>
+		<maxWidth>1280</maxWidth>
+		<maxHeight>1280</maxHeight>
+		<workingDirectory>editor/</workingDirectory>
+	</settings>
+	
+	<tilesets>
+		<tileset name="tileset" image="tileset.png" tileWidth="16" tileHeight="16"/>
+		<tileset name="cliffsidesset" image="cliffsidesset.png" tileWidth="16" tileHeight="16"/>
+	</tilesets>
+	
+	<objects>
+		<folder name="enemies" image="bob.png">
+			<object name="bob" image="bob.png" width="16" height="16" />
+			<object name="bobsoldier" image="bobsoldier.png" width="16" height="16" />
+			<object name="bobboss1" image="bobboss1.png" width="16" height="16" />
+			<object name="bobboss2" image="bobboss2.png" width="16" height="16" />
+			<object name="bobboss3" image="bobboss3.png" width="16" height="16" />
+			<object name="bosstotem" image="bosstotem.png" width="32" height="48" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="tentaclebeast" image="tentaclebeast.png" width="48" height="48" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="lavaboss" image="lavaboss.png" width="96" height="80" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="finalboss" image="finalboss.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="lightbosscontroller" image="lightbosscontroller.png" width="16" height="16" >
+				<values>
+					<integer name="fliernum" default="0" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="flyer" image="flyer.png" width="16" height="16" />
+			<object name="jellyfish" image="jellyfish.png" width="16" height="16" />
+			<object name="lavarunner" image="lavarunner.png" width="16" height="16" />
+			<object name="bulb" image="bulb.png" width="16" height="16" />
+			<object name="drill" image="drill.png" width="16" height="16" />
+			<object name="wallflyer" image="wallflyer.png" width="16" height="16" />
+			<object name="bombpusher" image="bombpusher.png" width="48" height="48" />
+			<object name="crusher" image="crusher.png" width="32" height="32" >
+				<values>
+					<integer name="tset" default="-1" min="-1" max="100" />
+				</values>
+			</object>
+			<object name="puncher" image="puncher.png" width="16" height="16" />
+			<object name="spinner" image="spinner.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="sandtrap" image="sandtrap.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="icetrap" image="icetrap.png" width="16" height="16" />
+			<object name="lavatrap" image="lavatrap.png" width="16" height="16" />
+			<object name="darktrap" image="darktrap.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="turret" image="turret.png" width="16" height="16" />
+			<object name="iceturret" image="iceturret.png" width="32" height="32" />
+			<object name="shieldboss" image="shieldboss.png" width="48" height="64" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="grenade" image="grenade.png" width="16" height="16" />
+		</folder>
+		<folder name="trees" image="tree.png">
+			<object name="treelarge" image="treelarge.png" width="160" height="192" />
+			<object name="tree" image="tree.png" width="32" height="32" />
+			<object name="treebare" image="treebare.png" width="32" height="32" />
+			<object name="burnabletree" image="burnabletree.png" width="32" height="32" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="opentree" image="opentree.png" width="32" height="32" />
+		</folder>
+		<folder name="buildings" image="building.png">
+			<object name="snowhill" image="snowhill.png" width="96" height="64" />
+			<object name="building" image="building.png" width="64" height="48" />
+			<object name="building1" image="building1.png" width="48" height="32" />
+			<object name="building2" image="building2.png" width="64" height="48" />
+			<object name="building3" image="building3.png" width="48" height="96" />
+			<object name="building4" image="building4.png" width="144" height="128" />
+			<object name="building5" image="building5.png" width="64" height="48" />
+			<object name="building6" image="building6.png" width="80" height="120" />
+			<object name="building7" image="building7.png" width="80" height="88" />
+			<object name="building8" image="building8.png" width="64" height="64" />
+		</folder>
+		
+		<folder name="rocks" image="rock.png">
+			<object name="rock" image="rock.png" width="16" height="16" />
+			<object name="rock2" image="rock2.png" width="16" height="16" />
+			<object name="rock3" image="rock3.png" width="16" height="16" />
+			<object name="rock4" image="rock4.png" width="16" height="16" />
+			<object name="fallrock" image="fallrock.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="0" min="0" max="100" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="fallrocklarge" image="fallrocklarge.png" width="32" height="32" >
+				<values>
+					<integer name="tset" default="0" min="0" max="100" />
+					<integer name="tag" default="0" />
+					<integer name="bossrock" default="0" min="0" max="1" />
+					<integer name="thirdboss" default="0" mint="0" max="1" />
+				</values>
+			</object>
+			<object name="moonrock" image="moonrock.png" width="48" height="48" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+		</folder>
+		<folder name="scenery" image="barstool.png">
+			<object name="pole" image="pole.png" width="16" height="16" />
+			<object name="brickpole" image="brickpole.png" width="16" height="16" />
+			<object name="brickwell" image="brickwell.png" width="16" height="16" />
+			<object name="statue1" image="statue1.png" width="48" height="32" >
+				<values>
+					<string name="text" default="" />
+					<integer name="frames" default="3" min="0" />
+				</values>
+			</object>
+			<object name="statue2" image="statue2.png" width="48" height="32" >
+				<values>
+					<string name="text" default="" />
+					<integer name="frames" default="3" min="0" />
+				</values>
+			</object>
+			<object name="finaldoor" image="finaldoor.png" width="32" height="32" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="pod" image="pod.png" width="16" height="16" />
+			<object name="frozenboss" image="frozenboss.png" width="160" height="160" />
+			<object name="moonrockpile" image="moonrockpile.png" width="32" height="16" />
+			<object name="bed" image="bed.png" width="16" height="32" />
+			<object name="dresser" image="dresser.png" width="32" height="16" />
+			<object name="bar" image="bar.png" width="64" height="16" />
+			<object name="barstool" image="barstool.png" width="16" height="16" />
+			<object name="torch" image="torch.png" width="16" height="16" >
+				<values>
+					<string name="c" default="0xFFCC00" maxChars="8" />
+				</values>
+			</object>
+			<object name="bonetorch" image="bonetorch.png" width="16" height="16" >
+				<values>
+					<string name="c" default="0xFFCC00" maxChars="8" />
+					<integer name="flip" min="0" max="1" />
+				</values>
+			</object>
+			<object name="bonetorch2" image="bonetorch2.png" width="16" height="16" >
+				<values>
+					<string name="c" default="0xFFCC00" maxChars="8" />
+					<integer name="flip" min="0" max="1" />
+				</values>
+			</object>
+			<object name="planttorch" image="planttorch.png" width="16" height="16" >
+				<values>
+					<string name="c" default="0xFFFF44" maxChars="8" />
+					<integer name="flip" min="0" max="1" />
+					<integer name="distance" min="0" default="100" />
+				</values>
+			</object>
+			<object name="lightpole" image="lightpole.png" width="16" height="16" >
+				<values>
+					<string name="c" default="0xFFFF44" maxChars="8" />
+					<integer name="tset" default="-1" min="-1" max="100" />
+					<integer name="tag" default="0" />
+					<integer name="invert" default="0" min="0" max="1" />
+				</values>
+			</object>
+			<object name="orb" image="orb.png" width="8" height="8" >
+				<values>
+					<string name="c" default="0xFF00FF" maxChars="8" />
+				</values>
+			</object>
+			<object name="wire" image="wire.png" width="16" height="16" >
+				<values>
+					<integer name="img" default="-1" />
+				</values>
+			</object>
+			<object name="shieldstatue" image="shieldstatue.png" width="48" height="32" />
+			<object name="oraclestatue" image="oraclestatue.png" width="32" height="32" />
+			<object name="ruinedpillar" image="ruinedpillar.png" width="32" height="32" />
+			<object name="totem" image="totem.png" width="32" height="64" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="dungeonspire" image="dungeonspire.png" width="16" height="16" />
+			<object name="lightbosstotem" image="lightbosstotem.png" width="16" height="16" />
+			<object name="littlestones" image="littlestones.png" width="16" height="16" />
+		</folder>
+		<folder name="pickups" image="sword.png">
+			<object name="sword" image="sword.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="ghostspear" image="ghostspear.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="ghostsword" image="ghostsword.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="darkshield" image="darkshield.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="darksuit" image="darksuit.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="conch" image="conch.png" width="8" height="8" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="fire" image="fire.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="wand" image="wand.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="firewand" image="firewand.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="feather" image="feather.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="shield" image="shield.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="torchpickup" image="torchpickup.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="chest" image="chest.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="bosskey" image="bosskey.png" width="16" height="16" >
+				<values>
+					<integer name="keyType" default="0" />
+				</values>
+			</object>
+			<object name="totempart" image="totempart.png" width="16" height="16" >
+				<values>
+					<integer name="totempart" default="0" />
+				</values>
+			</object>
+			<object name="health" image="health.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="seed" image="seed.png" width="16" height="16" >
+				<values>
+					<string name="text" default="" />
+				</values>
+			</object>
+		</folder>
+		<folder name="utility" image="control.png">
+			<object name="player" image="player.png" width="16" height="16" />
+			<object name="control" image="control.png" width="16" height="16">
+				<values>
+					<integer name="fallthrough" default="-1" min="-1" max="100" />
+					<integer name="xOff" default="0" min="-1600" max="1600" />
+					<integer name="yOff" default="0" min="-1600" max="1600"/>
+					<integer name="sign" default="0" min="0" max="8"/>
+				</values>
+			</object>
+			<object name="lightalpha" image="lightalpha.png" width="16" height="16" >
+				<values>
+					<number name="alpha" default="0" min="0" max="1"/>
+				</values>
+			</object>
+			<object name="daynight" image="daynight.png" width="16" height="16" />
+			<object name="blur" image="blur.png" width="16" height="16" />
+			<object name="blur2" image="blur2.png" width="16" height="16" />
+			<object name="snow" image="snow.png" width="16" height="16" />
+			<object name="lightray" image="lightray.png" width="16" height="16" >
+				<values>
+					<number name="alpha" default="0" min="0" max="1" />
+					<string name="color" default="0xFFFFFF" maxChars="8" />
+					<integer name="width" default="16" min="0" max="240" />
+					<integer name="height" default="16" min="0" max="240" />
+				</values>
+			</object>
+			<object name="droplet" image="droplet.png" width="16" height="16" >
+				<values>
+					<integer name="heaviness" default="100" min="0" max="100" />
+					<number name="startheight" default="48" min="0" />
+					<string name="color" default="0xFFFFFF" maxChars="8" />
+					<integer name="width" default="-1" min="-1" />
+					<integer name="height" default="-1" min="-1" />
+				</values>
+			</object>
+			<object name="shadow" image="shadow.png" width="16" height="16" >
+				<values>
+					<number name="alpha" default="0.25" min="0" max="1" />
+					<string name="color" default="0x000000" maxChars="8" />
+					<integer name="width" default="16" />
+					<integer name="height" default="16"/>
+				</values>
+			</object>
+			<object name="stairsup" image="stairsup.png" width="16" height="16" >
+				<values>
+					<integer name="flip" default="0" min="0" max="1" />
+					<integer name="to" default="0" min="0" max="200" />
+					<integer name="playerx" default="0" min="0" max="1280" />
+					<integer name="playery" default="0" min="0" max="1280" />
+					<integer name="sign" default="0" min="0" max="8"/>
+				</values>
+			</object>
+			<object name="stairsdown" image="stairsdown.png" width="16" height="16" >
+				<values>
+					<integer name="flip" default="0" min="0" max="1" />
+					<integer name="to" default="0" min="0" max="200" />
+					<integer name="playerx" default="0" min="0" max="1280" />
+					<integer name="playery" default="0" min="0" max="1280" />
+					<integer name="sign" default="0" min="0" max="8"/>
+				</values>
+			</object>
+			<object name="teleporter" image="teleporter.png" width="16" height="16" >
+				<values>
+					<integer name="to" default="0" min="0" max="200" />
+					<integer name="playerx" default="0" min="0" max="1280" />
+					<integer name="playery" default="0" min="0" max="1280" />
+					<integer name="show" default="0" min="0" max="1"/>
+					<integer name="tag" default="-1" />
+					<integer name="invert" default="0" min="0" max="1"/>
+					<integer name="sign" default="0" min="0" max="8"/>
+				</values>
+			</object>
+		</folder>
+		<folder name="puzzlements" image="button.png">
+			<object name="whirlpool" image="whirlpool.png" width="32" height="32" />
+			<object name="breakablerock" image="breakablerock.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="breakablerockghost" image="breakablerockghost.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="pushableblock" image="pushableblock.png" width="16" height="16" />
+			<object name="pushableblockfire" image="pushableblockfire.png" width="16" height="16" />
+			<object name="pushableblockspear" image="pushableblockspear.png" width="16" height="16" />
+			<object name="button" image="button.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="0" min="0" max="100" />
+				</values>
+			</object>
+			<object name="buttonroom" image="buttonroom.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="0" min="0" max="100" />
+					<integer name="tag" default="0" />
+					<integer name="flip" default="0" min="0" max="1" />
+					<integer name="room" default="-1" min="-1" />
+				</values>
+			</object>
+			<object name="arrowtrap" image="arrowtrap.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="0" min="0" max="100" />
+					<integer name="shoot" default="0" min="0" max="1" />
+				</values>
+			</object>
+			<object name="rocklock" image="rocklock.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="-1" min="-1" max="100" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="lock" image="lock.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="-1" min="-1" max="100" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="grasslock" image="grasslock.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="-1" min="-1" max="100" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="shieldlocknorm" image="shieldlocknorm.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="shieldlock" image="shieldlock.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="wandlock" image="wandlock.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="-1" min="-1" max="100" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="bosslock" image="bosslock.png" width="16" height="16" >
+				<values>
+					<integer name="keyType" default="0" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="magicallock" image="magicallock.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="magicallockfire" image="magicallockfire.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="cover" image="cover.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="0" min="0" max="100" />
+				</values>
+			</object>
+			<object name="pull" image="pull.png" width="16" height="16" >
+				<values>
+					<integer name="force" default="1" />
+					<number name="direction" default="0.75" />
+				</values>
+			</object>
+			<object name="rope" image="rope.png" width="16" height="16" >
+				<nodes drawObject="true" limit="1" lineMode="1"/>
+				<values>
+					<integer name="tset" default="-1" min="-1" max="100" />
+					<integer name="tag" default="0" />
+				</values>
+			</object>
+			<object name="pulser" image="pulser.png" width="16" height="16" >
+				<values>
+					<integer name="tset" default="0" min="0" max="100" />
+				</values>
+			</object>
+			<object name="spinningaxe" image="spinningaxe.png" width="16" height="16" >
+				<values>
+					<integer name="rate" default="5" />
+					<integer name="colortype" default="0" />
+				</values>
+			</object>
+			<object name="lavachain" image="lavachain.png" width="16" height="16" >
+				<values>
+					<integer name="dir" default="0" min="0" max="3" />
+				</values>
+			</object>
+			<object name="beamtower" image="beamtower.png" width="16" height="32" >
+				<values>
+					<integer name="direction" default="0" />
+					<number name="rate" default="1" />
+					<number name="speed" default="1" />
+				</values>
+			</object>
+		</folder>
+		<folder name="characters" image="forestchar.png">
+			<object name="introchar" image="introchar.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="rekcahdam" image="rekcahdam.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="forestchar" image="forestchar.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="adnanchar" image="adnanchar.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="watcher" image="watcher.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<string name="text1" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="karlore" image="karlore.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="witch" image="witch.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="hermit" image="hermit.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="4" min="0" />
+				</values>
+			</object>
+			<object name="oracle" image="oracle.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<string name="text1" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="yeti" image="yeti.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+			<object name="sensei" image="sensei.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="4" min="0" />
+				</values>
+			</object>
+			<object name="sign" image="sign.png" width="16" height="16" >
+				<values>
+					<integer name="tag" default="0" />
+					<string name="text" default="" />
+					<integer name="frames" default="10" min="0" />
+				</values>
+			</object>
+		</folder>
+	</objects>
+	
+	<layers>
+		<tiles name="tiles" gridSize="16" />
+		<tiles name="cliffsides" gridSize="16" />
+		<objects name="objects" gridSize="8"/>
+	</layers>
+</project>

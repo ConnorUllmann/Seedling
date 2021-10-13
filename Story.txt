@@ -1,0 +1,56 @@
+The world is changing.
+
+Is it a good change?  Your character makes it happen.
+
+:Arching Characters:
+
+Oracle
+	-Seeks you out, speaks loftily, very idealistic, and has a lot of hope and ideas that you're going to do SOMETHING.
+	-Ridiculous and grandiose at times.
+	-Nice guy, well-intentioned.
+	-Not very worldly, but you think he is at the start.
+Hermit
+	-Antithesis of the Oracle.
+	-Bitter, lonely, hateful little man.
+	-Semi-worldy, smart, and very knowledgeable.
+	-He starts using you as his only friend/contact with the world.
+	-Doesn't know what you're doing (oblivious to your work and intentions).
+		-When he finds out, he's a little shocked.
+You
+	-Unknowing, impressionable.
+	-Becomes goal-oriented initially.
+	-Timid and confident at times.
+Carlor
+	-Big talker.
+	-Hidden in a corner.
+	-Shows you where the treasure lies, but leads you into trouble in the process.
+		-When you get out, he thinks he's helped you (even though he got you into trouble and you're a bit angry).
+"Princess"
+
+:Sword/Shield Dungeons:
+
+In the beginning, you feel a wild inclination (further enhanced by the Oracle's "destiny" speech at the start.  He's a wild guy, but you don't know that yet).  You see a dungeon at the start, you go through and get the sword. Come out of the dungeon, and the moonrock falls.  No explanation is given--leaves the player guessing (possibly a confused bystander).  Go to the shield dungeon, where you face the Totem, who doesn't talk and is a sort of pawn.  You kill him, taking the first unlock key, and getting the shield.  You exit and go to the woods:
+
+:Woods:
+
+Meet people in the woods:
+	-Some are optional and some are not.
+	-Optional:
+		-Witch: "Mmm... are you a friendly face?" "You look nice enough." "...But I like my privacy." "That is an interesting insignia you carry." "...reminds me of the Totem I built..."
+			-Maybe add a side quest.
+		-Blandashurmin: "Don't take mah gold!" "...oh, Shrum." "Sorry ol' boy. I get a bit touchy with newcomers. Didn't recognize you there."
+		-Bar drunk; "Ya know... I used to be married to that old witch up there." "...grrg..." "...she was the sweetest..." DRUNK CHANGE: "...I used to bring Gertrude *** from the ***" "..." "...drove 'er to pieces, it did, gosh blesh 'er."
+		-Bartender: 
+
+Woods dungeon bosses:
+	-Generations of time.
+	-Tempus, Andaga, and Zeit (german time).
+	-Tempus follows you and just swings his hammer at you.
+		-"..., ...?" "..." "...!" talks with silence, then you fight.
+	-Andaga swings his poles like a clock.
+		-"...never..." "ages..." "...seen..." "...odd." "...for...minutes?" "seconds...hours..." "mine!"
+		-"never in my time here--the ages--have I seen something so odd.  Have you come for my minutes?  My seconds and hours?  Mine!"
+	-Zeit attacks you with swords.
+		-"Time is stasis." "You bring much conflict." "Is it my place to resist?" "Seems I must."
+
+	-The "times" never do anything and remain in the woods without interaction with the world.

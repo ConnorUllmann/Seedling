@@ -1,0 +1,37 @@
+1) Player
+	on grass
+	on dirt
+	on rock
+	on gook
+	on wood
+	in water
+2) Enemies
+	hopping sound
+	lava punch-splashing sound (7th boss)
+	wing-flapping
+	punching air
+	water splash (5th boss)
+	laser-beam firing (4th boss)
+	gooshy clapping (7th boss)
+	fire (unless covered by 7th dungeon music)
+	zooming air flyers sound (6th boss--room to play with this sound)
+	gooshy *pop*
+	drill
+	air-woosh (swinging hammer enemy)
+	explosion
+	metal scraping on metal
+	chomping sound
+	spitting sound (green monster turret)
+	turret lasery (the large purple one; 4th dungeon)
+3) Environmental
+	metal clang
+     X  rustling leaves
+	loud smash (rocks falling from air)
+	rock scraping on rock
+	change room sound
+	crumbling rock
+	unlocking a lock (room to play here too)
+	energy pulse
+	switch hit
+	shooting arrow
+	scrolling text?

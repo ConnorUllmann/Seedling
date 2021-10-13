@@ -1,0 +1,100 @@
+<level>
+  <width>144</width>
+  <height>144</height>
+  <tiles set="tileset">
+    <tile tx="48" ty="0" x="0" y="0"/>
+    <tile tx="48" ty="0" x="16" y="0"/>
+    <tile tx="48" ty="0" x="32" y="0"/>
+    <tile tx="48" ty="0" x="80" y="0"/>
+    <tile tx="48" ty="0" x="96" y="0"/>
+    <tile tx="48" ty="0" x="112" y="0"/>
+    <tile tx="48" ty="0" x="128" y="0"/>
+    <tile tx="48" ty="0" x="128" y="16"/>
+    <tile tx="48" ty="0" x="128" y="32"/>
+    <tile tx="48" ty="0" x="128" y="64"/>
+    <tile tx="48" ty="0" x="128" y="80"/>
+    <tile tx="48" ty="0" x="128" y="96"/>
+    <tile tx="48" ty="0" x="128" y="112"/>
+    <tile tx="48" ty="0" x="128" y="128"/>
+    <tile tx="48" ty="0" x="0" y="128"/>
+    <tile tx="48" ty="0" x="16" y="128"/>
+    <tile tx="48" ty="0" x="32" y="128"/>
+    <tile tx="48" ty="0" x="48" y="128"/>
+    <tile tx="48" ty="0" x="64" y="128"/>
+    <tile tx="48" ty="0" x="80" y="128"/>
+    <tile tx="48" ty="0" x="112" y="128"/>
+    <tile tx="48" ty="0" x="0" y="112"/>
+    <tile tx="48" ty="0" x="0" y="96"/>
+    <tile tx="48" ty="0" x="0" y="80"/>
+    <tile tx="48" ty="0" x="0" y="48"/>
+    <tile tx="48" ty="0" x="0" y="32"/>
+    <tile tx="96" ty="0" x="48" y="32"/>
+    <tile tx="96" ty="0" x="32" y="32"/>
+    <tile tx="96" ty="0" x="32" y="48"/>
+    <tile tx="96" ty="0" x="32" y="64"/>
+    <tile tx="96" ty="0" x="32" y="80"/>
+    <tile tx="96" ty="0" x="96" y="80"/>
+    <tile tx="96" ty="0" x="96" y="96"/>
+    <tile tx="96" ty="0" x="96" y="112"/>
+    <tile tx="96" ty="0" x="96" y="128"/>
+    <tile tx="96" ty="0" x="96" y="48"/>
+    <tile tx="96" ty="0" x="96" y="64"/>
+    <tile tx="96" ty="0" x="112" y="48"/>
+    <tile tx="96" ty="0" x="128" y="48"/>
+    <tile tx="96" ty="0" x="64" y="0"/>
+    <tile tx="96" ty="0" x="64" y="16"/>
+    <tile tx="96" ty="0" x="64" y="32"/>
+    <tile tx="48" ty="0" x="48" y="0"/>
+    <tile tx="32" ty="0" x="48" y="16"/>
+    <tile tx="32" ty="0" x="32" y="16"/>
+    <tile tx="32" ty="0" x="16" y="16"/>
+    <tile tx="32" ty="0" x="16" y="32"/>
+    <tile tx="32" ty="0" x="16" y="48"/>
+    <tile tx="32" ty="0" x="16" y="64"/>
+    <tile tx="32" ty="0" x="16" y="80"/>
+    <tile tx="32" ty="0" x="16" y="96"/>
+    <tile tx="32" ty="0" x="80" y="112"/>
+    <tile tx="32" ty="0" x="64" y="112"/>
+    <tile tx="32" ty="0" x="48" y="112"/>
+    <tile tx="32" ty="0" x="32" y="112"/>
+    <tile tx="32" ty="0" x="16" y="112"/>
+    <tile tx="32" ty="0" x="48" y="64"/>
+    <tile tx="32" ty="0" x="64" y="64"/>
+    <tile tx="32" ty="0" x="80" y="64"/>
+    <tile tx="32" ty="0" x="80" y="48"/>
+    <tile tx="32" ty="0" x="64" y="48"/>
+    <tile tx="32" ty="0" x="48" y="48"/>
+    <tile tx="32" ty="0" x="80" y="32"/>
+    <tile tx="32" ty="0" x="80" y="16"/>
+    <tile tx="32" ty="0" x="96" y="16"/>
+    <tile tx="32" ty="0" x="112" y="16"/>
+    <tile tx="32" ty="0" x="112" y="32"/>
+    <tile tx="32" ty="0" x="112" y="64"/>
+    <tile tx="32" ty="0" x="112" y="80"/>
+    <tile tx="32" ty="0" x="112" y="96"/>
+    <tile tx="32" ty="0" x="112" y="112"/>
+    <tile tx="48" ty="0" x="0" y="16"/>
+    <tile tx="32" ty="0" x="96" y="32"/>
+    <tile tx="32" ty="0" x="48" y="80"/>
+    <tile tx="32" ty="0" x="64" y="80"/>
+    <tile tx="32" ty="0" x="80" y="80"/>
+    <tile tx="96" ty="0" x="32" y="96"/>
+    <tile tx="96" ty="0" x="48" y="96"/>
+    <tile tx="96" ty="0" x="64" y="96"/>
+    <tile tx="96" ty="0" x="80" y="96"/>
+    <tile tx="96" ty="0" x="0" y="64"/>
+  </tiles>
+  <objects>
+    <teleporter x="64" y="0" to="2" playerx="48" playery="80" show="0" tag="-1" invert="0"/>
+    <teleporter x="128" y="48" to="4" playerx="16" playery="16" show="0" tag="-1" invert="0"/>
+    <teleporter x="96" y="128" to="11" playerx="32" playery="16" show="0" tag="-1" invert="0"/>
+    <breakablerock x="96" y="112" tag="0"/>
+    <torch x="80" y="0" c="0xFFCC00"/>
+    <torch x="48" y="0" c="0xFFCC00"/>
+    <brickpole x="64" y="64"/>
+    <torch x="64" y="64" c="0xFFCC00"/>
+    <lightalpha x="0" y="0" alpha="0.5"/>
+    <teleporter x="0" y="64" to="111" playerx="288" playery="176" show="0" tag="-1" invert="0"/>
+    <breakablerockghost x="0" y="64" tag="1"/>
+  </objects>
+</level>

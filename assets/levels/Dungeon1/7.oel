@@ -1,0 +1,47 @@
+<level>
+  <width>176</width>
+  <height>48</height>
+  <tiles set="tileset">
+    <tile tx="48" ty="0" x="0" y="0"/>
+    <tile tx="48" ty="0" x="32" y="0"/>
+    <tile tx="48" ty="0" x="48" y="0"/>
+    <tile tx="48" ty="0" x="64" y="0"/>
+    <tile tx="48" ty="0" x="80" y="0"/>
+    <tile tx="48" ty="0" x="96" y="0"/>
+    <tile tx="48" ty="0" x="112" y="0"/>
+    <tile tx="48" ty="0" x="128" y="0"/>
+    <tile tx="48" ty="0" x="176" y="0"/>
+    <tile tx="48" ty="0" x="160" y="0"/>
+    <tile tx="48" ty="0" x="160" y="16"/>
+    <tile tx="48" ty="0" x="160" y="32"/>
+    <tile tx="48" ty="0" x="144" y="32"/>
+    <tile tx="48" ty="0" x="128" y="32"/>
+    <tile tx="48" ty="0" x="112" y="32"/>
+    <tile tx="48" ty="0" x="96" y="32"/>
+    <tile tx="48" ty="0" x="80" y="32"/>
+    <tile tx="48" ty="0" x="64" y="32"/>
+    <tile tx="48" ty="0" x="48" y="32"/>
+    <tile tx="48" ty="0" x="32" y="32"/>
+    <tile tx="48" ty="0" x="16" y="32"/>
+    <tile tx="48" ty="0" x="0" y="32"/>
+    <tile tx="48" ty="0" x="0" y="16"/>
+    <tile tx="96" ty="0" x="128" y="16"/>
+    <tile tx="96" ty="0" x="144" y="16"/>
+    <tile tx="80" ty="0" x="64" y="16"/>
+    <tile tx="80" ty="0" x="96" y="16"/>
+    <tile tx="80" ty="0" x="16" y="0"/>
+    <tile tx="80" ty="0" x="16" y="16"/>
+    <tile tx="80" ty="0" x="32" y="16"/>
+    <tile tx="80" ty="0" x="48" y="16"/>
+    <tile tx="96" ty="0" x="112" y="16"/>
+    <tile tx="96" ty="0" x="144" y="0"/>
+    <tile tx="96" ty="0" x="80" y="16"/>
+  </tiles>
+  <objects>
+    <torch x="48" y="0" c="0xFFCC00"/>
+    <torch x="112" y="0" c="0xFFCC00"/>
+    <teleporter x="144" y="0" to="8" playerx="96" playery="176" show="0" tag="-1" invert="0"/>
+    <teleporter x="16" y="0" to="10" playerx="48" playery="80" show="0" tag="-1" invert="0"/>
+    <lightalpha x="0" y="0" alpha="0.3"/>
+  </objects>
+</level>

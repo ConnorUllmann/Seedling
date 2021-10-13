@@ -1,0 +1,108 @@
+<level>
+  <width>144</width>
+  <height>160</height>
+  <tiles set="tileset">
+    <tile tx="48" ty="0" x="16" y="0"/>
+    <tile tx="48" ty="0" x="32" y="0"/>
+    <tile tx="48" ty="0" x="48" y="0"/>
+    <tile tx="48" ty="0" x="64" y="0"/>
+    <tile tx="48" ty="0" x="80" y="0"/>
+    <tile tx="48" ty="0" x="96" y="0"/>
+    <tile tx="48" ty="0" x="112" y="0"/>
+    <tile tx="48" ty="0" x="128" y="0"/>
+    <tile tx="48" ty="0" x="128" y="16"/>
+    <tile tx="48" ty="0" x="128" y="32"/>
+    <tile tx="48" ty="0" x="128" y="48"/>
+    <tile tx="48" ty="0" x="128" y="64"/>
+    <tile tx="48" ty="0" x="128" y="80"/>
+    <tile tx="48" ty="0" x="128" y="96"/>
+    <tile tx="48" ty="0" x="128" y="112"/>
+    <tile tx="48" ty="0" x="128" y="128"/>
+    <tile tx="48" ty="0" x="128" y="144"/>
+    <tile tx="48" ty="0" x="112" y="144"/>
+    <tile tx="48" ty="0" x="96" y="144"/>
+    <tile tx="48" ty="0" x="80" y="144"/>
+    <tile tx="48" ty="0" x="48" y="144"/>
+    <tile tx="48" ty="0" x="32" y="144"/>
+    <tile tx="48" ty="0" x="16" y="144"/>
+    <tile tx="48" ty="0" x="0" y="144"/>
+    <tile tx="48" ty="0" x="0" y="112"/>
+    <tile tx="48" ty="0" x="0" y="96"/>
+    <tile tx="48" ty="0" x="0" y="80"/>
+    <tile tx="48" ty="0" x="0" y="64"/>
+    <tile tx="48" ty="0" x="0" y="48"/>
+    <tile tx="48" ty="0" x="0" y="32"/>
+    <tile tx="48" ty="0" x="0" y="16"/>
+    <tile tx="48" ty="0" x="0" y="0"/>
+    <tile tx="128" ty="0" x="16" y="16"/>
+    <tile tx="128" ty="0" x="48" y="16"/>
+    <tile tx="128" ty="0" x="64" y="16"/>
+    <tile tx="128" ty="0" x="80" y="16"/>
+    <tile tx="128" ty="0" x="112" y="16"/>
+    <tile tx="128" ty="0" x="112" y="32"/>
+    <tile tx="128" ty="0" x="80" y="32"/>
+    <tile tx="128" ty="0" x="64" y="32"/>
+    <tile tx="128" ty="0" x="48" y="32"/>
+    <tile tx="128" ty="0" x="16" y="32"/>
+    <tile tx="128" ty="0" x="16" y="48"/>
+    <tile tx="128" ty="0" x="32" y="48"/>
+    <tile tx="128" ty="0" x="48" y="48"/>
+    <tile tx="128" ty="0" x="64" y="48"/>
+    <tile tx="128" ty="0" x="80" y="48"/>
+    <tile tx="128" ty="0" x="96" y="48"/>
+    <tile tx="128" ty="0" x="112" y="48"/>
+    <tile tx="128" ty="0" x="112" y="64"/>
+    <tile tx="128" ty="0" x="96" y="64"/>
+    <tile tx="128" ty="0" x="80" y="64"/>
+    <tile tx="128" ty="0" x="64" y="64"/>
+    <tile tx="128" ty="0" x="48" y="64"/>
+    <tile tx="128" ty="0" x="32" y="64"/>
+    <tile tx="128" ty="0" x="16" y="64"/>
+    <tile tx="128" ty="0" x="16" y="80"/>
+    <tile tx="128" ty="0" x="16" y="96"/>
+    <tile tx="128" ty="0" x="32" y="80"/>
+    <tile tx="128" ty="0" x="48" y="80"/>
+    <tile tx="128" ty="0" x="64" y="80"/>
+    <tile tx="128" ty="0" x="80" y="80"/>
+    <tile tx="128" ty="0" x="96" y="80"/>
+    <tile tx="128" ty="0" x="112" y="80"/>
+    <tile tx="128" ty="0" x="112" y="96"/>
+    <tile tx="128" ty="0" x="96" y="96"/>
+    <tile tx="128" ty="0" x="32" y="96"/>
+    <tile tx="128" ty="0" x="16" y="112"/>
+    <tile tx="128" ty="0" x="32" y="112"/>
+    <tile tx="128" ty="0" x="112" y="112"/>
+    <tile tx="128" ty="0" x="96" y="112"/>
+    <tile tx="128" ty="0" x="112" y="128"/>
+    <tile tx="128" ty="0" x="96" y="128"/>
+    <tile tx="128" ty="0" x="32" y="128"/>
+    <tile tx="128" ty="0" x="16" y="128"/>
+    <tile tx="48" ty="0" x="0" y="128"/>
+    <tile tx="96" ty="0" x="48" y="128"/>
+    <tile tx="96" ty="0" x="48" y="112"/>
+    <tile tx="96" ty="0" x="48" y="96"/>
+    <tile tx="96" ty="0" x="64" y="96"/>
+    <tile tx="96" ty="0" x="80" y="96"/>
+    <tile tx="96" ty="0" x="80" y="112"/>
+    <tile tx="96" ty="0" x="80" y="128"/>
+    <tile tx="96" ty="0" x="64" y="112"/>
+    <tile tx="96" ty="0" x="64" y="128"/>
+    <tile tx="96" ty="0" x="64" y="144"/>
+    <tile tx="96" ty="0" x="32" y="16"/>
+    <tile tx="96" ty="0" x="32" y="32"/>
+    <tile tx="96" ty="0" x="96" y="16"/>
+    <tile tx="96" ty="0" x="96" y="32"/>
+  </tiles>
+  <objects>
+    <stairsdown x="32" y="32" flip="0" to="14" playerx="160" playery="64"/>
+    <stairsdown x="96" y="32" flip="1" to="20" playerx="32" playery="48"/>
+    <lightalpha x="0" y="0" alpha="0.3"/>
+    <shieldstatue x="48" y="64"/>
+    <torch x="64" y="80" c="0xFFCC00"/>
+    <dungeonspire x="32" y="16"/>
+    <dungeonspire x="96" y="16"/>
+    <torch x="32" y="16" c="0xFFCC00"/>
+    <torch x="96" y="16" c="0xFFCC00"/>
+    <stairsup x="64" y="144" flip="1" to="0" playerx="48" playery="192"/>
+  </objects>
+</level>

@@ -1,0 +1,124 @@
+<level>
+  <width>160</width>
+  <height>160</height>
+  <tiles set="tileset">
+    <tile tx="704" ty="0" x="112" y="80"/>
+    <tile tx="704" ty="0" x="32" y="112"/>
+    <tile tx="704" ty="0" x="48" y="112"/>
+    <tile tx="704" ty="0" x="64" y="112"/>
+    <tile tx="704" ty="0" x="80" y="112"/>
+    <tile tx="704" ty="0" x="96" y="112"/>
+    <tile tx="704" ty="0" x="112" y="112"/>
+    <tile tx="704" ty="0" x="112" y="96"/>
+    <tile tx="704" ty="0" x="96" y="96"/>
+    <tile tx="704" ty="0" x="48" y="96"/>
+    <tile tx="704" ty="0" x="32" y="96"/>
+    <tile tx="704" ty="0" x="32" y="80"/>
+    <tile tx="704" ty="0" x="48" y="80"/>
+    <tile tx="704" ty="0" x="96" y="80"/>
+    <tile tx="704" ty="0" x="96" y="64"/>
+    <tile tx="704" ty="0" x="48" y="64"/>
+    <tile tx="704" ty="0" x="48" y="48"/>
+    <tile tx="704" ty="0" x="64" y="48"/>
+    <tile tx="704" ty="0" x="80" y="48"/>
+    <tile tx="704" ty="0" x="96" y="48"/>
+    <tile tx="688" ty="0" x="16" y="16"/>
+    <tile tx="688" ty="0" x="16" y="32"/>
+    <tile tx="688" ty="0" x="16" y="48"/>
+    <tile tx="688" ty="0" x="16" y="64"/>
+    <tile tx="688" ty="0" x="16" y="80"/>
+    <tile tx="688" ty="0" x="16" y="96"/>
+    <tile tx="688" ty="0" x="16" y="112"/>
+    <tile tx="688" ty="0" x="0" y="112"/>
+    <tile tx="688" ty="0" x="0" y="96"/>
+    <tile tx="688" ty="0" x="0" y="80"/>
+    <tile tx="688" ty="0" x="0" y="64"/>
+    <tile tx="688" ty="0" x="0" y="48"/>
+    <tile tx="688" ty="0" x="0" y="32"/>
+    <tile tx="688" ty="0" x="0" y="16"/>
+    <tile tx="688" ty="0" x="0" y="0"/>
+    <tile tx="688" ty="0" x="16" y="0"/>
+    <tile tx="688" ty="0" x="32" y="0"/>
+    <tile tx="688" ty="0" x="48" y="0"/>
+    <tile tx="688" ty="0" x="64" y="0"/>
+    <tile tx="688" ty="0" x="80" y="0"/>
+    <tile tx="688" ty="0" x="96" y="0"/>
+    <tile tx="688" ty="0" x="112" y="0"/>
+    <tile tx="688" ty="0" x="144" y="0"/>
+    <tile tx="688" ty="0" x="144" y="16"/>
+    <tile tx="688" ty="0" x="144" y="32"/>
+    <tile tx="688" ty="0" x="144" y="48"/>
+    <tile tx="688" ty="0" x="144" y="64"/>
+    <tile tx="688" ty="0" x="144" y="80"/>
+    <tile tx="688" ty="0" x="144" y="96"/>
+    <tile tx="688" ty="0" x="144" y="112"/>
+    <tile tx="688" ty="0" x="144" y="144"/>
+    <tile tx="688" ty="0" x="128" y="144"/>
+    <tile tx="688" ty="0" x="112" y="144"/>
+    <tile tx="688" ty="0" x="96" y="144"/>
+    <tile tx="688" ty="0" x="48" y="144"/>
+    <tile tx="688" ty="0" x="32" y="144"/>
+    <tile tx="688" ty="0" x="16" y="144"/>
+    <tile tx="688" ty="0" x="0" y="144"/>
+    <tile tx="688" ty="0" x="0" y="128"/>
+    <tile tx="688" ty="0" x="16" y="128"/>
+    <tile tx="688" ty="0" x="32" y="128"/>
+    <tile tx="688" ty="0" x="48" y="128"/>
+    <tile tx="688" ty="0" x="96" y="128"/>
+    <tile tx="688" ty="0" x="112" y="128"/>
+    <tile tx="688" ty="0" x="144" y="128"/>
+    <tile tx="688" ty="0" x="128" y="128"/>
+    <tile tx="688" ty="0" x="128" y="112"/>
+    <tile tx="688" ty="0" x="128" y="96"/>
+    <tile tx="688" ty="0" x="128" y="80"/>
+    <tile tx="688" ty="0" x="128" y="64"/>
+    <tile tx="688" ty="0" x="128" y="48"/>
+    <tile tx="688" ty="0" x="128" y="32"/>
+    <tile tx="688" ty="0" x="128" y="16"/>
+    <tile tx="688" ty="0" x="128" y="0"/>
+    <tile tx="688" ty="0" x="96" y="16"/>
+    <tile tx="688" ty="0" x="80" y="16"/>
+    <tile tx="688" ty="0" x="64" y="16"/>
+    <tile tx="688" ty="0" x="48" y="16"/>
+    <tile tx="688" ty="0" x="32" y="16"/>
+    <tile tx="672" ty="0" x="48" y="32"/>
+    <tile tx="672" ty="0" x="64" y="32"/>
+    <tile tx="672" ty="0" x="80" y="32"/>
+    <tile tx="672" ty="0" x="96" y="32"/>
+    <tile tx="704" ty="0" x="64" y="128"/>
+    <tile tx="704" ty="0" x="64" y="144"/>
+    <tile tx="704" ty="0" x="80" y="144"/>
+    <tile tx="704" ty="0" x="80" y="128"/>
+    <tile tx="96" ty="0" x="64" y="80"/>
+    <tile tx="96" ty="0" x="80" y="80"/>
+    <tile tx="96" ty="0" x="80" y="64"/>
+    <tile tx="96" ty="0" x="64" y="64"/>
+    <tile tx="704" ty="0" x="64" y="96"/>
+    <tile tx="704" ty="0" x="80" y="96"/>
+    <tile tx="688" ty="0" x="32" y="64"/>
+    <tile tx="688" ty="0" x="32" y="48"/>
+    <tile tx="688" ty="0" x="32" y="32"/>
+    <tile tx="688" ty="0" x="112" y="64"/>
+    <tile tx="688" ty="0" x="112" y="48"/>
+    <tile tx="688" ty="0" x="112" y="32"/>
+    <tile tx="688" ty="0" x="112" y="16"/>
+  </tiles>
+  <objects>
+    <watcher x="72" y="72" tag="0" text="You...~You're the reason for all of this.~I see all, and I've seen you with your... weapons.~I watched you kill the Shieldspire, the Times...~...the Totem of Lacste, the Tentacled Beast, the Lights, the King of Fire...~...even burning the Owl to death in his own nest.~While you mauled your victims...~Did you ever once think?~How you kill everything, everything in your path.~All for this?~This little seed, a seed that will serve to please a master you've only but met?~I saw you, and I tried to stop you.~It was I that dropped the Sky Rock when you killed the Shieldspire.~Little did I know that it would only cause you to destroy more.~It pushed you to do more than I could have imagined.~This is why I must stop you.~If you want this seed, you will have to kill me.~Here, before you. In cold blood.~If you turn back to find a bloodless seed, only then will you be redeemed.~Now, kill me or find another way." text1="Kill me or seek redemption with a bloodless seed.~The choice lies with you." frames="3"/>
+    <ruinedpillar x="96" y="80"/>
+    <ruinedpillar x="32" y="80"/>
+    <dungeonspire x="40" y="112"/>
+    <dungeonspire x="104" y="112"/>
+    <torch x="40" y="112" c="0xFFCC00"/>
+    <torch x="104" y="112" c="0xFFCC00"/>
+    <lightalpha x="0" y="0" alpha="0.15"/>
+    <teleporter x="64" y="144" to="113" playerx="16" playery="16" show="0" tag="-1" invert="0"/>
+    <teleporter x="80" y="144" to="113" playerx="32" playery="16" show="0" tag="-1" invert="0"/>
+    <brickpole x="48" y="64"/>
+    <brickpole x="48" y="48"/>
+    <brickpole x="96" y="64"/>
+    <brickpole x="96" y="48"/>
+    <orb x="56" y="64" c="0x00FF00"/>
+    <orb x="104" y="64" c="0x00FF00"/>
+  </objects>
+</level>

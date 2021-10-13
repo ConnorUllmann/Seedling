@@ -1,0 +1,60 @@
+<level>
+  <width>112</width>
+  <height>112</height>
+  <tiles set="tileset">
+    <tile tx="208" ty="0" x="0" y="48"/>
+    <tile tx="208" ty="0" x="0" y="32"/>
+    <tile tx="208" ty="0" x="0" y="16"/>
+    <tile tx="208" ty="0" x="16" y="0"/>
+    <tile tx="208" ty="0" x="32" y="0"/>
+    <tile tx="208" ty="0" x="48" y="0"/>
+    <tile tx="224" ty="0" x="16" y="48"/>
+    <tile tx="224" ty="0" x="32" y="64"/>
+    <tile tx="224" ty="0" x="32" y="48"/>
+    <tile tx="224" ty="0" x="48" y="48"/>
+    <tile tx="224" ty="0" x="48" y="32"/>
+    <tile tx="224" ty="0" x="48" y="16"/>
+    <tile tx="224" ty="0" x="32" y="16"/>
+    <tile tx="224" ty="0" x="16" y="16"/>
+    <tile tx="224" ty="0" x="16" y="32"/>
+    <tile tx="224" ty="0" x="32" y="32"/>
+    <tile tx="224" ty="0" x="16" y="64"/>
+    <tile tx="224" ty="0" x="48" y="64"/>
+    <tile tx="224" ty="0" x="64" y="64"/>
+    <tile tx="224" ty="0" x="64" y="48"/>
+    <tile tx="224" ty="0" x="64" y="32"/>
+    <tile tx="224" ty="0" x="64" y="16"/>
+    <tile tx="224" ty="0" x="80" y="16"/>
+    <tile tx="224" ty="0" x="80" y="32"/>
+    <tile tx="224" ty="0" x="80" y="48"/>
+    <tile tx="224" ty="0" x="80" y="64"/>
+    <tile tx="224" ty="0" x="80" y="80"/>
+    <tile tx="224" ty="0" x="64" y="80"/>
+    <tile tx="224" ty="0" x="32" y="80"/>
+    <tile tx="224" ty="0" x="32" y="96"/>
+    <tile tx="208" ty="0" x="0" y="64"/>
+    <tile tx="208" ty="0" x="0" y="80"/>
+    <tile tx="208" ty="0" x="16" y="96"/>
+    <tile tx="208" ty="0" x="48" y="96"/>
+    <tile tx="208" ty="0" x="64" y="96"/>
+    <tile tx="208" ty="0" x="80" y="96"/>
+    <tile tx="208" ty="0" x="96" y="80"/>
+    <tile tx="208" ty="0" x="96" y="64"/>
+    <tile tx="208" ty="0" x="96" y="48"/>
+    <tile tx="208" ty="0" x="96" y="32"/>
+    <tile tx="208" ty="0" x="96" y="16"/>
+    <tile tx="208" ty="0" x="80" y="0"/>
+    <tile tx="208" ty="0" x="64" y="0"/>
+    <tile tx="208" ty="0" x="16" y="80"/>
+    <tile tx="208" ty="0" x="48" y="80"/>
+  </tiles>
+  <objects>
+    <bed x="80" y="64"/>
+    <barstool x="16" y="24"/>
+    <torch x="16" y="16" c="0xFFCC00"/>
+    <sensei x="32" y="48" tag="0" text="Hello, stranger.~It is rare that I get visitors--my home is far from hospitable for most.~Even, at points, for me.~My spear has helped me through it all, though.~It is an enchanted weapon, capable of more than just inflicting pain.~I have decided to leave this place, but...~...I feel that taking this spear would not be right.~Its home is in the hands of a warrior.~Please, take it for me." frames="3"/>
+    <ghostspear x="72" y="24" tag="1"/>
+    <teleporter x="32" y="96" to="62" playerx="112" playery="80" show="0" tag="-1" invert="0" sign="0"/>
+    <lightalpha x="0" y="0" alpha="0.2"/>
+  </objects>
+</level>

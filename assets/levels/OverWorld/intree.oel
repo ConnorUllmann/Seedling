@@ -1,0 +1,105 @@
+<level>
+  <width>144</width>
+  <height>144</height>
+  <tiles set="tileset">
+    <tile tx="80" ty="0" x="144" y="16"/>
+    <tile tx="80" ty="0" x="112" y="16"/>
+    <tile tx="80" ty="0" x="96" y="16"/>
+    <tile tx="80" ty="0" x="32" y="16"/>
+    <tile tx="80" ty="0" x="16" y="16"/>
+    <tile tx="80" ty="0" x="16" y="32"/>
+    <tile tx="80" ty="0" x="32" y="32"/>
+    <tile tx="80" ty="0" x="48" y="32"/>
+    <tile tx="80" ty="0" x="80" y="32"/>
+    <tile tx="80" ty="0" x="96" y="32"/>
+    <tile tx="80" ty="0" x="32" y="48"/>
+    <tile tx="80" ty="0" x="48" y="48"/>
+    <tile tx="80" ty="0" x="64" y="48"/>
+    <tile tx="80" ty="0" x="80" y="48"/>
+    <tile tx="80" ty="0" x="144" y="64"/>
+    <tile tx="80" ty="0" x="80" y="64"/>
+    <tile tx="80" ty="0" x="64" y="64"/>
+    <tile tx="80" ty="0" x="48" y="64"/>
+    <tile tx="80" ty="0" x="32" y="64"/>
+    <tile tx="80" ty="0" x="16" y="96"/>
+    <tile tx="80" ty="0" x="64" y="96"/>
+    <tile tx="80" ty="0" x="80" y="96"/>
+    <tile tx="80" ty="0" x="144" y="80"/>
+    <tile tx="80" ty="0" x="32" y="80"/>
+    <tile tx="80" ty="0" x="80" y="80"/>
+    <tile tx="80" ty="0" x="64" y="80"/>
+    <tile tx="80" ty="0" x="48" y="80"/>
+    <tile tx="80" ty="0" x="48" y="96"/>
+    <tile tx="80" ty="0" x="32" y="96"/>
+    <tile tx="80" ty="0" x="48" y="112"/>
+    <tile tx="80" ty="0" x="64" y="112"/>
+    <tile tx="80" ty="0" x="80" y="112"/>
+    <tile tx="80" ty="0" x="32" y="112"/>
+    <tile tx="80" ty="0" x="16" y="112"/>
+    <tile tx="80" ty="0" x="32" y="128"/>
+    <tile tx="80" ty="0" x="128" y="144"/>
+    <tile tx="80" ty="0" x="96" y="144"/>
+    <tile tx="80" ty="0" x="64" y="144"/>
+    <tile tx="80" ty="0" x="32" y="144"/>
+    <tile tx="80" ty="0" x="0" y="144"/>
+    <tile tx="256" ty="0" x="16" y="128"/>
+    <tile tx="256" ty="0" x="0" y="128"/>
+    <tile tx="256" ty="0" x="0" y="112"/>
+    <tile tx="256" ty="0" x="0" y="96"/>
+    <tile tx="256" ty="0" x="0" y="48"/>
+    <tile tx="256" ty="0" x="0" y="32"/>
+    <tile tx="256" ty="0" x="0" y="16"/>
+    <tile tx="256" ty="0" x="0" y="0"/>
+    <tile tx="256" ty="0" x="16" y="0"/>
+    <tile tx="256" ty="0" x="32" y="0"/>
+    <tile tx="256" ty="0" x="80" y="0"/>
+    <tile tx="256" ty="0" x="96" y="0"/>
+    <tile tx="256" ty="0" x="144" y="0"/>
+    <tile tx="256" ty="0" x="128" y="16"/>
+    <tile tx="256" ty="0" x="128" y="0"/>
+    <tile tx="256" ty="0" x="112" y="0"/>
+    <tile tx="256" ty="0" x="96" y="128"/>
+    <tile tx="256" ty="0" x="80" y="128"/>
+    <tile tx="256" ty="0" x="64" y="128"/>
+    <tile tx="256" ty="0" x="48" y="128"/>
+    <tile tx="256" ty="0" x="112" y="32"/>
+    <tile tx="256" ty="0" x="48" y="16"/>
+    <tile tx="256" ty="0" x="64" y="32"/>
+    <tile tx="256" ty="0" x="80" y="16"/>
+    <tile tx="256" ty="0" x="16" y="64"/>
+    <tile tx="256" ty="0" x="16" y="80"/>
+    <tile tx="256" ty="0" x="48" y="0"/>
+    <tile tx="256" ty="0" x="64" y="16"/>
+    <tile tx="256" ty="0" x="128" y="32"/>
+    <tile tx="256" ty="0" x="0" y="80"/>
+    <tile tx="256" ty="0" x="16" y="48"/>
+    <tile tx="256" ty="0" x="96" y="48"/>
+    <tile tx="256" ty="0" x="112" y="48"/>
+    <tile tx="256" ty="0" x="96" y="64"/>
+    <tile tx="256" ty="0" x="96" y="80"/>
+    <tile tx="544" ty="0" x="96" y="112"/>
+    <tile tx="544" ty="0" x="112" y="112"/>
+    <tile tx="544" ty="0" x="128" y="96"/>
+    <tile tx="528" ty="0" x="112" y="96"/>
+    <tile tx="80" ty="0" x="96" y="96"/>
+    <tile tx="544" ty="0" x="112" y="64"/>
+    <tile tx="528" ty="0" x="112" y="80"/>
+    <tile tx="544" ty="0" x="128" y="64"/>
+    <tile tx="256" ty="0" x="128" y="80"/>
+    <tile tx="256" ty="0" x="128" y="112"/>
+  </tiles>
+  <objects>
+    <teleporter x="32" y="128" to="12" playerx="168" playery="384" show="0" tag="-1" invert="0"/>
+    <chest x="64" y="48" tag="0"/>
+    <sandtrap x="32" y="48" tag="2"/>
+    <sandtrap x="64" y="64" tag="3"/>
+    <sandtrap x="80" y="80" tag="6"/>
+    <sandtrap x="48" y="80" tag="4"/>
+    <sandtrap x="64" y="80" tag="5"/>
+    <rock x="80" y="112"/>
+    <lightalpha x="0" y="0" alpha="0.05"/>
+    <rock2 x="16" y="32"/>
+    <adnanchar x="112" y="16" tag="1" text="I AM ADNAN.~DESTROYER OF WORLDS." frames="1"/>
+    <bonetorch x="112" y="80" c="0xFFCC00" flip="0"/>
+  </objects>
+</level>

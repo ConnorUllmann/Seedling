@@ -1,0 +1,7 @@
+1-8 : Dungeon themes (1.5-3 minute loops)
+9   : Variation on the 5th dungeon (water dungeon) for inside and outside (blizzard on the outside, cold cave on the inside)
+10  : Overworld theme (2+ minute loop)
+11  : Boss battle song (30-60 second loop)
+12  : Ending song (20-30 seconds, no need for looping)
+13  : Calm cutscenes (45-60 second loop)
+14  : Oracle theme (30-60 second loop)

@@ -1,0 +1,8 @@
+0: Key.RIGHT
+1: Key.UP
+2: Key.LEFT
+3: Key.DOWN
+4: Key.X
+5: Key.C
+6: Key.X
+7: Key.V

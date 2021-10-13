@@ -1,0 +1,75 @@
+<level>
+  <width>128</width>
+  <height>128</height>
+  <tiles set="tileset">
+    <tile tx="528" ty="0" x="32" y="16"/>
+    <tile tx="528" ty="0" x="16" y="32"/>
+    <tile tx="528" ty="0" x="96" y="32"/>
+    <tile tx="528" ty="0" x="80" y="32"/>
+    <tile tx="528" ty="0" x="96" y="48"/>
+    <tile tx="528" ty="0" x="48" y="64"/>
+    <tile tx="528" ty="0" x="64" y="64"/>
+    <tile tx="528" ty="0" x="64" y="48"/>
+    <tile tx="528" ty="0" x="48" y="48"/>
+    <tile tx="528" ty="0" x="16" y="80"/>
+    <tile tx="32" ty="0" x="32" y="64"/>
+    <tile tx="32" ty="0" x="32" y="48"/>
+    <tile tx="32" ty="0" x="16" y="48"/>
+    <tile tx="32" ty="0" x="32" y="32"/>
+    <tile tx="32" ty="0" x="48" y="32"/>
+    <tile tx="32" ty="0" x="48" y="16"/>
+    <tile tx="32" ty="0" x="64" y="32"/>
+    <tile tx="32" ty="0" x="80" y="48"/>
+    <tile tx="32" ty="0" x="80" y="64"/>
+    <tile tx="32" ty="0" x="96" y="64"/>
+    <tile tx="32" ty="0" x="96" y="80"/>
+    <tile tx="32" ty="0" x="80" y="80"/>
+    <tile tx="32" ty="0" x="64" y="80"/>
+    <tile tx="32" ty="0" x="48" y="80"/>
+    <tile tx="544" ty="0" x="16" y="96"/>
+    <tile tx="544" ty="0" x="32" y="112"/>
+    <tile tx="544" ty="0" x="80" y="112"/>
+    <tile tx="544" ty="0" x="96" y="96"/>
+    <tile tx="544" ty="0" x="112" y="80"/>
+    <tile tx="544" ty="0" x="112" y="64"/>
+    <tile tx="544" ty="0" x="112" y="48"/>
+    <tile tx="544" ty="0" x="112" y="32"/>
+    <tile tx="544" ty="0" x="96" y="16"/>
+    <tile tx="544" ty="0" x="80" y="0"/>
+    <tile tx="544" ty="0" x="64" y="0"/>
+    <tile tx="544" ty="0" x="48" y="0"/>
+    <tile tx="544" ty="0" x="32" y="0"/>
+    <tile tx="544" ty="0" x="16" y="16"/>
+    <tile tx="544" ty="0" x="0" y="32"/>
+    <tile tx="544" ty="0" x="0" y="48"/>
+    <tile tx="544" ty="0" x="0" y="64"/>
+    <tile tx="544" ty="0" x="0" y="80"/>
+    <tile tx="544" ty="0" x="0" y="16"/>
+    <tile tx="544" ty="0" x="16" y="0"/>
+    <tile tx="544" ty="0" x="96" y="0"/>
+    <tile tx="544" ty="0" x="112" y="16"/>
+    <tile tx="544" ty="0" x="112" y="96"/>
+    <tile tx="544" ty="0" x="96" y="112"/>
+    <tile tx="544" ty="0" x="16" y="112"/>
+    <tile tx="544" ty="0" x="0" y="96"/>
+    <tile tx="32" ty="0" x="48" y="112"/>
+    <tile tx="32" ty="0" x="64" y="112"/>
+    <tile tx="32" ty="0" x="64" y="96"/>
+    <tile tx="32" ty="0" x="48" y="96"/>
+    <tile tx="528" ty="0" x="80" y="96"/>
+    <tile tx="528" ty="0" x="32" y="96"/>
+    <tile tx="528" ty="0" x="16" y="64"/>
+    <tile tx="528" ty="0" x="32" y="80"/>
+    <tile tx="528" ty="0" x="64" y="16"/>
+    <tile tx="112" ty="0" x="80" y="16"/>
+  </tiles>
+  <objects>
+    <orb x="64" y="40" c="0xFF2211"/>
+    <teleporter x="48" y="112" to="57" playerx="96" playery="64" show="0" tag="-1" invert="0"/>
+    <teleporter x="64" y="112" to="57" playerx="96" playery="64" show="0" tag="-1" invert="0"/>
+    <droplet x="0" y="0" heaviness="75" startheight="32" color="0x9F9FFF" width="-1" height="-1"/>
+    <lightalpha x="112" y="0" alpha="0.1"/>
+    <yeti x="56" y="56" tag="0" text="How did you--oh no.~Did you kill the Tentacled Beast?~This is my home! You've ruined it!~But how strong you must be to have killed the Tentacled Beast...~Please, get out! Don't kill me! Woe is me, my friend is dead..." frames="3"/>
+    <teleporter x="80" y="16" to="46" playerx="352" playery="128" show="1" tag="1" invert="0"/>
+  </objects>
+</level>
